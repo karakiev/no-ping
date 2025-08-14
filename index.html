@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>No Ping</title>
+  <style>
+    body {
+      font-family: monospace;
+      background-color: #0d0d0d;
+      color: #00ff88;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2em;
+      text-align: center;
+    }
+    p {
+      max-width: 500px;
+      text-align: center;
+      font-size: 1em;
+      line-height: 1.5;
+      margin-top: 1rem;
+    }
+    .terminal {
+      border: 2px solid #00ff88;
+      padding: 1rem;
+      border-radius: 8px;
+      background-color: #000;
+    }
+    .blink {
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      from, to { color: transparent }
+      50% { color: #00ff88 }
+    }
+    code {
+      display: block;
+      margin: 0.25rem 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal">
+    <h1>STOP TYPING “PING”</h1>
+    <p>
+      If you have something to say, just say it.<br/>
+      Don’t make the other person wait while you warm up your keyboard.<br/><br/>
+      Instead of:<br/>
+      <code>ping?</code><br/>
+      Try:<br/>
+      <code id="kara-line">Hey Kara, the server's down since 2:14pm. Logs?</code>
+      <code id="extra-line"></code>
+    </p>
+    <p class="blink">_</p>
+  </div>
+
+  <script>
+    // Simulate dynamic terminal output
+    setTimeout(() => {
+      document.getElementById("extra-line").textContent = "Morning, sweety <3";
+    }, 1500); // Appears after 1.5 seconds
+  </script>
+</body>
+</html>
