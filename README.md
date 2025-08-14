@@ -20,7 +20,7 @@ Instead of sending a meaningless “ping?” or “hey” and making people wait
 ---
 
 ## 🚀 How to View
-Live demo: [https://your-username.github.io/no-ping](https://your-username.github.io/no-ping)
+Live demo: [https://your-username.github.io/no-ping](https://karakiev.github.io/no-ping)
 
 ---
 
@@ -32,3 +32,4 @@ The site is just one `index.html` file:
 ---
 
 ## 📂 Project Structure
+
