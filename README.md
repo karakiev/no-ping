@@ -14,13 +14,14 @@ Instead of sending a meaningless “ping?” or “hey” and making people wait
 ---
 
 ## 📷 Preview
-![Preview](preview.png)  
-*(Add a screenshot of your page here)*
+[![Preview](preview.png)](https://karakiev.github.io/no-ping)
+
+*(Click the image to view the live site)*
 
 ---
 
 ## 🚀 How to View
-Live demo: [https://your-username.github.io/no-ping](https://karakiev.github.io/no-ping)
+Live demo: [https://karakiev.github.io/no-ping](https://karakiev.github.io/no-ping)
 
 ---
 
@@ -30,6 +31,3 @@ The site is just one `index.html` file:
 - A **JavaScript snippet** dynamically adds a friendly line after a short delay to simulate a console printout.
 
 ---
-
-## 📂 Project Structure
-
