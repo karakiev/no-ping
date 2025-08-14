@@ -14,7 +14,7 @@ Instead of sending a meaningless “ping?” or “hey” and making people wait
 ---
 
 ## 📷 Preview
-[![Preview](preview.png)](https://karakiev.github.io/no-ping)
+[![Preview](Preview.png)](https://karakiev.github.io/no-ping)
 
 *(Click the image to view the live site)*
 
@@ -31,3 +31,4 @@ The site is just one `index.html` file:
 - A **JavaScript snippet** dynamically adds a friendly line after a short delay to simulate a console printout.
 
 ---
+
